@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62,5%;
+}
+html, body{
+    font-family: 'Staatliches', cursive;
+    color: rgb(255, 255, 255);
+    background:rgb(80, 80, 80);
+    
+}
+section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    min-height: 90vh;
+    padding: 10rem 20vw;
+}
+
+.hero{
+    background-color: bisque;
+}
+.main{
+    background-color: rgb(131, 100, 62);
+}
+
+
+//font-family: 'Staatliches', cursive;

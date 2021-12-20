@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "node-sass": "^7.0.0",
+    "sass": "^1.45.0"
+  },
+  "name": "automatic-potate",
+  "description": "description 1 kk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass" : "node-sass styles/style.scss styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davi2104/automatic-potate.git"
+  },
+  "author": "zangado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davi2104/automatic-potate/issues"
+  },
+  "homepage": "https://github.com/davi2104/automatic-potate#readme"
+}
