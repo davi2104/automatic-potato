@@ -1,19 +1,133 @@
+@charset "UTF-8";
 * {
   margin: 0;
   border: 0;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
 html {
-  font-size: 62,5%; }
+  font-size: 62,5%;
+}
 
 html, body {
   font-family: 'Staatliches', cursive;
   color: white;
-  background: #505050; }
+  background: #505050;
+}
+
+.purple {
+  background-color: #8E24AA;
+}
+
+.pink {
+  background-color: #D81B60;
+}
+
+.red {
+  background-color: #E53935;
+}
+
+p {
+  font-size: 2rem;
+}
 
 section {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 90vh; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 60vh;
+  padding: 10rem 20vw;
+  color: #fff;
+  font-size: 10rem;
+  min-height: 80vh;
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(110% + 1.3px);
+  height: 241px;
+}
+
+.wave .shape-fill {
+  fill: #e59035;
+}
+
+.hero {
+  background-color: #E53935;
+  padding-bottom: 0;
+}
+
+.main {
+  background-color: #ef9a9a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.espaçador {
+  aspect-ratio: 960/420;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url(../svg/waves.svg);
+}
+
+.wathever {
+  background-color: #ef5250;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 10rem;
+          flex: 0 1 10rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 1px red;
+}
+
+.card-title {
+  font-size: 3.2rem;
+}
+
+.card-text {
+  font-size: 1.6rem;
+}
+/*# sourceMappingURL=style.css.map */

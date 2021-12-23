@@ -12,21 +12,97 @@ html, body{
     background:rgb(80, 80, 80);
     
 }
+//pallet
+$purple : #8E24AA; //600
+
+$triadic : #aa2441;
+
+$green: #41aa24; //Comp
+$pink : #D81B60;
+
+$red : #E53935;
+$red-2 : #ef5250;
+$red-4 : #ef9a9a;
+$redComp :#e5358a;
+.purple{
+    background-color : $purple
+}
+.pink{
+    background-color: $pink;
+}
+.red{
+    background-color: $red;
+}
+p{
+    font-size: 2rem;
+}
 section{
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center; 
-    min-height: 90vh;
+    min-height: 60vh;
     padding: 10rem 20vw;
+    color: #fff;
+    font-size: 10rem;
+    min-height: 80vh;
+}
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 241px;
+}
+.wave .shape-fill {
+    fill: #e59035;
 }
 
 .hero{
-    background-color: bisque;
+    background-color: $red;
+    padding-bottom: 0;
 }
 .main{
-    background-color: rgb(131, 100, 62);
+    background-color: $red-4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.espaçador{
+    aspect-ratio: 960/420;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layer1{
+     background-image: url(../svg/waves.svg);
+}
+
+.wathever{
+background-color: $red-2;
+}
+.card{
+display: flex;
+flex-direction: column;
+flex: 0 1 10rem;
+align-items: center;
+border: solid 1px red;
+}
+.card-title{
+font-size: 3.2rem;
+}
+.card-text{
+font-size: 1.6rem;
 }
 
 
-//font-family: 'Staatliches', cursive;
+
